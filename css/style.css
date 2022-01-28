@@ -28,19 +28,26 @@ r*{
     text-decoration: none;
     
 }
-#container{
-    position:relative;
+#form-container{
+    flex: none;
+  position: relative;
+  z-index: 2;
+  margin-top: -400px;
 }
 #form{
-    position: absolute;
-    top: 50%;
+   position: absolute;
+   top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-
+    
+} 
+#clear{
+    clear: both;
 }
 #video-wrapper{
     position: relative;
     margin-top: 500px;
+    z-index: 1;
 }
 #video{
     position: absolute;
@@ -59,8 +66,8 @@ r*{
     justify-content: space-around;
     align-items: center;
     background-color: white;
-    padding-right: 70px;
-    padding-left: 70px;
+    padding-right: 20px;
+    padding-left: 20px;
 }
 
 .container{
@@ -68,6 +75,12 @@ r*{
     text-align: center;
     justify-content: center;
     justify-items: center;
-    padding-top: 60px;
+    padding-top: 20px;
     margin-top: 500px;
+}
+
+@media only screen and (max-width: 760px){
+    #header #nav-bar {
+        text-decoration: underline;
+    }
 }
