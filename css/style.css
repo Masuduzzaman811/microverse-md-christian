@@ -1,0 +1,25 @@
+r*{
+    box-sizing:border-box;
+}
+#header{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: whitesmoke;
+}
+
+#header #nav-bar{
+    text-decoration: none;
+}
+
+#header #nav-bar li{
+    display: inline-flex;
+    list-style: none;
+    justify-content: space-around;
+    padding-right: 50px;
+    font-size: 30px;
+}
+#header #nav-bar a{
+    text-decoration: none;
+}
+
