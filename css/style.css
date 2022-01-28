@@ -22,4 +22,29 @@ r*{
 #header #nav-bar a{
     text-decoration: none;
 }
+#container{
+    position:relative;
+}
+#form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+#video-wrapper{
+    position: relative;
+    margin-top: 500px;
+}
+#video{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#submit{
+    background: yellow;
+    border: solid transparent;
+    padding: .5em .2em;
+}
 
