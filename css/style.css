@@ -6,6 +6,10 @@ r*{
     align-items: center;
     justify-content: space-between;
     background-color: whitesmoke;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    left: 0;
 }
 
 #header #nav-bar{
@@ -17,10 +21,12 @@ r*{
     list-style: none;
     justify-content: space-around;
     padding-right: 50px;
-    font-size: 30px;
+    font-size: 20px;
+
 }
 #header #nav-bar a{
     text-decoration: none;
+    
 }
 #container{
     position:relative;
@@ -48,3 +54,20 @@ r*{
     padding: .5em .2em;
 }
 
+.card{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    padding-right: 70px;
+    padding-left: 70px;
+}
+
+.container{
+    border: 1px black solid;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    padding-top: 60px;
+    margin-top: 500px;
+}
